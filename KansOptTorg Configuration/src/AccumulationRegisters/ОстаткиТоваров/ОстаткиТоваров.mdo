@@ -13,6 +13,7 @@
     <key>ru</key>
     <value>Остатки товаров</value>
   </synonym>
+  <comment>Сглупил, не добавив сразу</comment>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>

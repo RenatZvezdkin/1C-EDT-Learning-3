@@ -15,4 +15,5 @@
   <content>Catalog.Сотрудники</content>
   <content>Catalog.Склады</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>Report.ЗакупкаТоваров</content>
 </mdclass:Subsystem>

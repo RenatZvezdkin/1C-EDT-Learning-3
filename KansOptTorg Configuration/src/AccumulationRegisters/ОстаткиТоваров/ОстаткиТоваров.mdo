@@ -18,12 +18,12 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="84ca12e7-bdec-4f93-83f1-de9ba10fb6ed">
-    <name>ОборотНоменклатуры</name>
+    <name>ПродажиНоменклатуры</name>
     <synonym>
       <key>ru</key>
-      <value>Оборот номенклатуры</value>
+      <value>Продажи номенклатуры</value>
     </synonym>
-    <comment>То есть сколько кто потратил и кто сколько продал</comment>
+    <comment>Я тогда не знал, что слово &quot;Оборот&quot; будет использовано, так что с дуру ляпнул</comment>
     <type>
       <types>Number</types>
       <numberQualifiers>

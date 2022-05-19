@@ -12,4 +12,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>Report.ОстаткиТоваровПоДаннымДокумента</content>
 </mdclass:Subsystem>

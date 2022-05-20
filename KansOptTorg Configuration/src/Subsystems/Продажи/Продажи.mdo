@@ -13,4 +13,5 @@
   <content>Catalog.Контрагенты</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>Report.ОстаткиТоваровПоДаннымДокумента</content>
+  <content>AccumulationRegister.Себестоимость</content>
 </mdclass:Subsystem>

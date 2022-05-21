@@ -51,8 +51,10 @@
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкаТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
+  <reports>Report.ВаловаяПрибыль</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Поставки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Себестоимость</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

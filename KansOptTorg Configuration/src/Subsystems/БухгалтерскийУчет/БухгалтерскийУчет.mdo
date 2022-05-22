@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>AccountingRegister.РегистрБухгалтерии</content>
+  <content>Document.БухгалтерскаяОперация</content>
 </mdclass:Subsystem>

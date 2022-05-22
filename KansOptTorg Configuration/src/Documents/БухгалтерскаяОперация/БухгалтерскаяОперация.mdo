@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4f6c202-3649-43ad-a4ea-e2064b762dcb">
+  <producedTypes>
+    <objectType typeId="6d3cc8e8-46aa-46ea-8fbf-90a1d95a0e27" valueTypeId="6a07d3c2-6e44-4055-b796-5b6d993ed9bd"/>
+    <refType typeId="114456af-83bd-4d64-9cf5-2720151c372d" valueTypeId="85ab0e61-3718-4430-9096-f906f32c9303"/>
+    <selectionType typeId="8c55a9c0-6001-420f-a8ce-aa507f775f37" valueTypeId="ce018dab-e5bb-4a4e-8a7c-d233a78ac94c"/>
+    <listType typeId="2876878f-9b67-46c4-ab82-4836fd37736e" valueTypeId="e6637d20-1268-408d-a121-a67bb05271db"/>
+    <managerType typeId="6563a940-66a4-4ca7-b71d-924b6285525a" valueTypeId="88f34657-de30-47bc-9cdc-14d2d0a174ee"/>
+  </producedTypes>
+  <name>БухгалтерскаяОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерская операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.БухгалтерскаяОперация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.БухгалтерскаяОперация.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccountingRegister.РегистрБухгалтерии</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="9e0de0ee-638f-418d-be6e-2c8b7ee67b32">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

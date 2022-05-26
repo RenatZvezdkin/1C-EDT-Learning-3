@@ -7,6 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>AccountingRegister.РегистрБухгалтерии</content>
+  <content>AccountingRegister.РегистрБух</content>
   <content>Document.БухгалтерскаяОперация</content>
+  <content>Report.ОстаткиПоСчетамБУ</content>
+  <content>Document.ЗакрнытиеМесяца</content>
 </mdclass:Subsystem>

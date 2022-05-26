@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b6303a-fc89-4bb9-a0e5-9ad082c2c226">
+  <producedTypes>
+    <objectType typeId="e439eafb-2ce3-4de7-a898-c5b8e5290324" valueTypeId="6bc23db5-d0a6-4d2e-8928-0bc5ab99bf47"/>
+    <refType typeId="da76cb68-078e-41f4-8f6f-c8ed112e27c1" valueTypeId="465b8f7d-5e1e-43da-8b2f-dd4955604b57"/>
+    <selectionType typeId="2b95f88d-b1e1-48e2-9f96-efbd4f7c19b1" valueTypeId="2a650e1c-9254-42be-bee5-9fe68ed74633"/>
+    <listType typeId="35f5ac69-b02c-4949-bddb-6a824e9300d7" valueTypeId="9f0a450a-078d-4495-b4c5-18f60393209d"/>
+    <managerType typeId="c1638c45-29de-4e6c-b3b3-859ace3639d3" valueTypeId="dec7441f-2fc6-4797-b765-9716cd24344b"/>
+  </producedTypes>
+  <name>ЗакрнытиеМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрнытие месяца</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакрнытиеМесяца.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccountingRegister.РегистрБух</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

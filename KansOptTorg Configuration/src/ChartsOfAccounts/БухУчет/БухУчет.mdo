@@ -63,6 +63,12 @@
       <description>Касса</description>
       <code>7        </code>
     </items>
+    <items id="ffd2a3cc-af12-4765-b39a-090a37be598f">
+      <name>ПрибыльИУбытки</name>
+      <description>Прибыль и убытки</description>
+      <code>8        </code>
+      <accountType>Passive</accountType>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

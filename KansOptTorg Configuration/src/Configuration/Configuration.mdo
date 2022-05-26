@@ -50,15 +50,17 @@
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.БухгалтерскаяОперация</documents>
+  <documents>Document.ЗакрнытиеМесяца</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкаТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
   <reports>Report.ВаловаяПрибыль</reports>
+  <reports>Report.ОстаткиПоСчетамБУ</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Поставки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Себестоимость</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
-  <accountingRegisters>AccountingRegister.РегистрБухгалтерии</accountingRegisters>
+  <accountingRegisters>AccountingRegister.РегистрБух</accountingRegisters>
 </mdclass:Configuration>

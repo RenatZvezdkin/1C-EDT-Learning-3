@@ -101,31 +101,31 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>ДвиженияРегистрБухгалтерии</name>
-    <id>44</id>
+    <name>ДвиженияРегистрБух</name>
+    <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.RegisterRecords.РегистрБухгалтерии</segments>
+      <segments>Объект.RegisterRecords.РегистрБух</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ДвиженияРегистрБухгалтерииНомерСтроки</name>
-      <id>57</id>
+      <name>ДвиженияРегистрБухНомерСтроки</name>
+      <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.RegisterRecords.РегистрБухгалтерии.LineNumber</segments>
+        <segments>Объект.RegisterRecords.РегистрБух.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДвиженияРегистрБухгалтерииНомерСтрокиРасширеннаяПодсказка</name>
-        <id>59</id>
+        <name>ДвиженияРегистрБухНомерСтрокиРасширеннаяПодсказка</name>
+        <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -139,8 +139,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДвиженияРегистрБухгалтерииНомерСтрокиКонтекстноеМеню</name>
-        <id>58</id>
+        <name>ДвиженияРегистрБухНомерСтрокиКонтекстноеМеню</name>
+        <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -163,19 +163,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДвиженияРегистрБухгалтерииСчетДт</name>
-      <id>69</id>
+      <name>ДвиженияРегистрБухСчетДт</name>
+      <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.RegisterRecords.РегистрБухгалтерии.AccountDr</segments>
+        <segments>Объект.RegisterRecords.РегистрБух.AccountDr</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДвиженияРегистрБухгалтерииСчетДтРасширеннаяПодсказка</name>
-        <id>71</id>
+        <name>ДвиженияРегистрБухСчетДтРасширеннаяПодсказка</name>
+        <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -189,8 +189,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДвиженияРегистрБухгалтерииСчетДтКонтекстноеМеню</name>
-        <id>70</id>
+        <name>ДвиженияРегистрБухСчетДтКонтекстноеМеню</name>
+        <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -213,19 +213,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДвиженияРегистрБухгалтерииСчетКт</name>
-      <id>72</id>
+      <name>ДвиженияРегистрБухСчетКт</name>
+      <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.RegisterRecords.РегистрБухгалтерии.AccountCr</segments>
+        <segments>Объект.RegisterRecords.РегистрБух.AccountCr</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДвиженияРегистрБухгалтерииСчетКтРасширеннаяПодсказка</name>
-        <id>74</id>
+        <name>ДвиженияРегистрБухСчетКтРасширеннаяПодсказка</name>
+        <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -239,8 +239,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДвиженияРегистрБухгалтерииСчетКтКонтекстноеМеню</name>
-        <id>73</id>
+        <name>ДвиженияРегистрБухСчетКтКонтекстноеМеню</name>
+        <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -263,19 +263,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ДвиженияРегистрБухгалтерииСумма</name>
-      <id>75</id>
+      <name>ДвиженияРегистрБухСумма</name>
+      <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.RegisterRecords.РегистрБухгалтерии.Сумма</segments>
+        <segments>Объект.RegisterRecords.РегистрБух.Сумма</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДвиженияРегистрБухгалтерииСуммаРасширеннаяПодсказка</name>
-        <id>77</id>
+        <name>ДвиженияРегистрБухСуммаРасширеннаяПодсказка</name>
+        <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -289,8 +289,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДвиженияРегистрБухгалтерииСуммаКонтекстноеМеню</name>
-        <id>76</id>
+        <name>ДвиженияРегистрБухСуммаКонтекстноеМеню</name>
+        <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -313,8 +313,8 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>ДвиженияРегистрБухгалтерииКоманднаяПанель</name>
-      <id>45</id>
+      <name>ДвиженияРегистрБухКоманднаяПанель</name>
+      <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -329,11 +329,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ДвиженияРегистрБухгалтерииСтрокаПоиска</name>
-      <id>48</id>
+      <name>ДвиженияРегистрБухСтрокаПоиска</name>
+      <id>11</id>
       <extendedTooltip>
-        <name>ДвиженияРегистрБухгалтерииСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>50</id>
+        <name>ДвиженияРегистрБухСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -347,8 +347,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДвиженияРегистрБухгалтерииСтрокаПоискаКонтекстноеМеню</name>
-        <id>49</id>
+        <name>ДвиженияРегистрБухСтрокаПоискаКонтекстноеМеню</name>
+        <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -366,11 +366,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ДвиженияРегистрБухгалтерииСостояниеПросмотра</name>
-      <id>54</id>
+      <name>ДвиженияРегистрБухСостояниеПросмотра</name>
+      <id>17</id>
       <extendedTooltip>
-        <name>ДвиженияРегистрБухгалтерииСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>56</id>
+        <name>ДвиженияРегистрБухСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -384,8 +384,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДвиженияРегистрБухгалтерииСостояниеПросмотраКонтекстноеМеню</name>
-        <id>55</id>
+        <name>ДвиженияРегистрБухСостояниеПросмотраКонтекстноеМеню</name>
+        <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -404,11 +404,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ДвиженияРегистрБухгалтерииУправлениеПоиском</name>
-      <id>51</id>
+      <name>ДвиженияРегистрБухУправлениеПоиском</name>
+      <id>14</id>
       <extendedTooltip>
-        <name>ДвиженияРегистрБухгалтерииУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>53</id>
+        <name>ДвиженияРегистрБухУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -422,8 +422,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДвиженияРегистрБухгалтерииУправлениеПоискомКонтекстноеМеню</name>
-        <id>52</id>
+        <name>ДвиженияРегистрБухУправлениеПоискомКонтекстноеМеню</name>
+        <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -437,8 +437,8 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДвиженияРегистрБухгалтерииРасширеннаяПодсказка</name>
-      <id>47</id>
+      <name>ДвиженияРегистрБухРасширеннаяПодсказка</name>
+      <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -452,8 +452,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ДвиженияРегистрБухгалтерииКонтекстноеМеню</name>
-      <id>46</id>
+      <name>ДвиженияРегистрБухКонтекстноеМеню</name>
+      <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -513,15 +513,6 @@
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.Движения.РегистрБухгалтерии.Активность</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.Движения.РегистрБухгалтерии.Отбор</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.Движения.РегистрБухгалтерии.Регистратор</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>

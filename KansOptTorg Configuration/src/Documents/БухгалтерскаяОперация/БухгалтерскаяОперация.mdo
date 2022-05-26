@@ -25,10 +25,10 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.БухгалтерскаяОперация.Form.ФормаДокумента</defaultObjectForm>
   <posting>Deny</posting>
-  <registerRecords>AccountingRegister.РегистрБухгалтерии</registerRecords>
+  <registerRecords>AccountingRegister.РегистрБух</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <forms uuid="9e0de0ee-638f-418d-be6e-2c8b7ee67b32">
+  <forms uuid="30fcb90f-c84f-4aff-82ce-7ff594f0e142">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>

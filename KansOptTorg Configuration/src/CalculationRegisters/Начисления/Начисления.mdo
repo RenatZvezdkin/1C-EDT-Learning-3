@@ -17,6 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
   <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ГрафикРаботы</schedule>
   <scheduleValue>InformationRegister.ГрафикРаботы.Resource.РабочийДень</scheduleValue>
   <scheduleDate>InformationRegister.ГрафикРаботы.Dimension.Дата</scheduleDate>
@@ -39,6 +40,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <attributes uuid="f1f964fe-89d7-424f-8a3e-8539697db708">
+    <name>РасчетныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетные данные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="01af6d87-a477-4366-8f9e-d56fd8a041dc">
     <name>Сотрудник</name>
     <synonym>

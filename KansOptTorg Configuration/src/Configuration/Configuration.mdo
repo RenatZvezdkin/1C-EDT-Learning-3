@@ -55,6 +55,7 @@
   <documents>Document.НачислениеОклада</documents>
   <documents>Document.НевыходСотрудника</documents>
   <documents>Document.ГрафикРаботы</documents>
+  <documents>Document.Премиальные</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкаТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>

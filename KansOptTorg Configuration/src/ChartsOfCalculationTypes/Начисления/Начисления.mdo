@@ -32,6 +32,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.Начисления</baseCalculationTypes>
   <actionPeriodUse>true</actionPeriodUse>
   <predefined>
     <items id="ceec8536-7744-4b10-8ae6-a572aace8865">
@@ -47,6 +49,13 @@
       <description>Невыход сотрудника</description>
       <code xsi:type="core:StringValue">
         <value>002</value>
+      </code>
+    </items>
+    <items id="490de811-0116-4fe7-b2a8-bbb0f4e647ff">
+      <name>ПремияСуммой</name>
+      <description>Премия суммой</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
       </code>
     </items>
   </predefined>

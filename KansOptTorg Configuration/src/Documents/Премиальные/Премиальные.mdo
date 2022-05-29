@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f87ff45-fd49-4da9-9103-04d4b065963a">
+  <producedTypes>
+    <objectType typeId="dd89d1e7-ef99-4725-9a15-ecc61d04ddeb" valueTypeId="c3211624-a5bb-4c67-9bf3-36c92a6ecdce"/>
+    <refType typeId="e9f735c0-20dd-4e8e-a310-bad23dd91ea0" valueTypeId="5b4070de-94d2-4ed9-8978-3de7e769da9c"/>
+    <selectionType typeId="6f29c6af-4e93-4778-9b17-8e9bc77e59e9" valueTypeId="33c821e3-e350-40b5-ae9b-826b96c2cd40"/>
+    <listType typeId="77fec22d-b9b6-4b43-afe3-7d3852838bb3" valueTypeId="6a646e58-56bb-47c3-abd7-e52c1d827962"/>
+    <managerType typeId="b7cdc64f-76d9-4df8-b21a-2445ece5978b" valueTypeId="b0d15c85-d744-48db-bd42-2e8cbc0060b7"/>
+  </producedTypes>
+  <name>Премиальные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Премиальные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Премиальные.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.Начисления</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="58c27b34-8894-4c26-949f-d15f3cdeddf8">
+    <producedTypes>
+      <objectType typeId="34f182cc-07d3-4c68-8c6c-32b6cecc34f1" valueTypeId="07aec05f-c734-455b-b840-38affdd9bc3f"/>
+      <rowType typeId="b5cb90f5-21c5-42c7-afc2-a37e28f87b80" valueTypeId="9af302bf-3e7d-486a-aa52-aed40749c069"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="f0d41842-2349-4c71-b381-8c333f76e63f">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7f94bf5c-c552-4ed7-a199-60990633b200">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

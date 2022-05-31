@@ -43,6 +43,7 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
   <subsystems>Subsystem.Зарплата</subsystems>
+  <subsystems>Subsystem.ПриемСотрудников</subsystems>
   <constants>Constant.НаименованиеОрганизации</constants>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -58,6 +59,7 @@
   <documents>Document.Премиальные</documents>
   <documents>Document.ВыплатыЗП</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <enums>Enum.Вакансии</enums>
   <reports>Report.ЗакупкаТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
   <reports>Report.ВаловаяПрибыль</reports>
@@ -75,4 +77,6 @@
   <accountingRegisters>AccountingRegister.РегистрБух</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
+  <businessProcesses>BusinessProcess.ПриемНаРаботу</businessProcesses>
+  <tasks>Task.ЗадачаПриемаНаРаботу</tasks>
 </mdclass:Configuration>

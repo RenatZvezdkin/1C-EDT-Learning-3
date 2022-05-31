@@ -24,10 +24,10 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПоступлениеТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccountingRegister.РегистрБух</registerRecords>
+  <registerRecords>AccumulationRegister.Себестоимость</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.Поставки</registerRecords>
-  <registerRecords>AccumulationRegister.Себестоимость</registerRecords>
-  <registerRecords>AccountingRegister.РегистрБух</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="785c3bf0-1666-444d-959a-bc8e769cca6d">

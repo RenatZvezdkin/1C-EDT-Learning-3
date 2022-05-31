@@ -36,6 +36,13 @@
   <baseCalculationTypes>ChartOfCalculationTypes.Начисления</baseCalculationTypes>
   <actionPeriodUse>true</actionPeriodUse>
   <predefined>
+    <items id="8607bedc-ee04-4d94-b377-2fd2dee7de02">
+      <name>НевыходСотрудника</name>
+      <description>Невыход сотрудника</description>
+      <code xsi:type="core:StringValue">
+        <value>002</value>
+      </code>
+    </items>
     <items id="ceec8536-7744-4b10-8ae6-a572aace8865">
       <name>ОкладПоТарифу</name>
       <description>Оклад по тарифу</description>
@@ -43,13 +50,6 @@
         <value>001</value>
       </code>
       <displaced>ChartOfCalculationTypes.Начисления.НевыходСотрудника</displaced>
-    </items>
-    <items id="8607bedc-ee04-4d94-b377-2fd2dee7de02">
-      <name>НевыходСотрудника</name>
-      <description>Невыход сотрудника</description>
-      <code xsi:type="core:StringValue">
-        <value>002</value>
-      </code>
     </items>
     <items id="490de811-0116-4fe7-b2a8-bbb0f4e647ff">
       <name>ПремияСуммой</name>

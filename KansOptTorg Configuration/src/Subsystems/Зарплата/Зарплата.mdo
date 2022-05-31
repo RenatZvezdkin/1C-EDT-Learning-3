@@ -14,4 +14,7 @@
   <content>Document.НевыходСотрудника</content>
   <content>Document.ГрафикРаботы</content>
   <content>Document.Премиальные</content>
+  <content>Report.ЗадолженностьПоЗарплате</content>
+  <content>AccumulationRegister.ЗадолженностиПередСотрудниками</content>
+  <content>Document.ВыплатыЗП</content>
 </mdclass:Subsystem>

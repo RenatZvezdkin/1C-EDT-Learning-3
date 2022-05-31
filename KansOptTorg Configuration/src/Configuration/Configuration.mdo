@@ -56,17 +56,20 @@
   <documents>Document.НевыходСотрудника</documents>
   <documents>Document.ГрафикРаботы</documents>
   <documents>Document.Премиальные</documents>
+  <documents>Document.ВыплатыЗП</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкаТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
   <reports>Report.ВаловаяПрибыль</reports>
   <reports>Report.ОстаткиПоСчетамБУ</reports>
+  <reports>Report.ЗадолженностьПоЗарплате</reports>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикРаботы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Поставки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Себестоимость</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗадолженностиПередСотрудниками</accumulationRegisters>
   <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.РегистрБух</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
